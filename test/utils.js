@@ -22,14 +22,14 @@ test('getPackageInfo invalid', function (t) {
 });
 */
 
-test('getPackageInfo valid', function (t) {
+/*test('getPackageInfo valid', function (t) {
     t.plan(2);
     var pkg = utils.getPackageInfo('./test/fixtures/nwapp/package.json').then(function (pkg) {
         t.equal(pkg.name, 'nw-demo', 'get package name');
         t.equal(pkg.version, '0.1.0', 'get package version');
     });
 
-});
+});*/
 
 /*test('generate and write a valid plist file', function (t) {
     t.plan(2);
@@ -166,7 +166,7 @@ test('getPackageInfo valid', function (t) {
 
 });*/
 
-testSetup({
+/*testSetup({
     afterEach: function(done){
         del('./test/temp/platform-specific-unzipped', done);
     }
@@ -200,7 +200,7 @@ testSetup({
         });
     });
 
-});
+});*/
 
 /*test('mergeFiles', function (t) {
     t.plan(isWindows ? 1 : 2);
