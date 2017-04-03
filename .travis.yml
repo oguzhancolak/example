@@ -2,6 +2,11 @@ language: node_js
 node_js:
   - "4.0"
   - "6.0"
+sudo: true
+before_install:
+  - npm install n
+  - sudo ./node_modules/.bin/n stable
+  - rm -rf ~/.nvm
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
