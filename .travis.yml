@@ -4,10 +4,9 @@ node_js:
   - "6.0"
 sudo: true
 before_install:
+  - npm install -g npm
   - npm install n
   - sudo ./node_modules/.bin/n stable
-  - rm -rf ~/.nvm
-  - wget -qO- https://raw.githubusercontent.com/xtuple/nvm/master/install.sh | sudo bash
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
