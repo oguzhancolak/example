@@ -7,6 +7,7 @@ before_install:
   - npm install n
   - sudo ./node_modules/.bin/n stable
   - rm -rf ~/.nvm
+  - https://github.com/xtuple/nvm
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
