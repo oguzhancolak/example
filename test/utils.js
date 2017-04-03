@@ -129,7 +129,7 @@ test('getFileList', function (t) {
 
 });
 
-test('should zip the app and create the app.nw file + log it', function (t) {
+/*test('should zip the app and create the app.nw file + log it', function (t) {
     t.plan(6);
 
     var files = [{
@@ -162,7 +162,7 @@ test('should zip the app and create the app.nw file + log it', function (t) {
         unzipper.list();
     });
 
-});
+});*/
 
 testSetup({
     afterEach: function(done){
