@@ -202,7 +202,7 @@ testSetup({
 
 });
 
-test('mergeFiles', function (t) {
+/*test('mergeFiles', function (t) {
     t.plan(isWindows ? 1 : 2);
 
     var releasefile = temp.openSync();
@@ -221,4 +221,4 @@ test('mergeFiles', function (t) {
         }
     });
 
-});
+});*/
