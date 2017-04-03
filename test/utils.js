@@ -31,7 +31,7 @@ test('getPackageInfo valid', function (t) {
 
 });
 
-test('generate and write a valid plist file', function (t) {
+/*test('generate and write a valid plist file', function (t) {
     t.plan(2);
     var tests = [];
 
@@ -76,7 +76,7 @@ test('generate and write a valid plist file', function (t) {
         t.end();
     });
 
-});
+});*/
 
 /*test('getFileList', function (t) {
     t.plan(5);
