@@ -35,3 +35,44 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+example/build/nw-demo/osx64/chromedriver
+example/build/nw-demo/osx64/credits.html
+example/build/nw-demo/osx64/nw-demo.app/Contents/Info.plist
+example/build/nw-demo/osx64/nw-demo.app/Contents/MacOS/
+example/build/nw-demo/osx64/nw-demo.app/Contents/PkgInfo
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Helpers/
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/nacl_irt_x86_64.nexe
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_pnacl_json
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_crtbegin_for_eh_o
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_crtbegin_o
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_ld_nexe
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_libpnacl_irt_shim_a
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_libpnacl_irt_shim_dummy_a
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_pnacl_llc_nexe
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/pnacl/pnacl_public_x86_64_pnacl_sz_nexe
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Libraries/
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/libffmpeg.dylib
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/libnode.dylib
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/nwjs Framework
+example/build/nw-demo/osx64/nw-demo.app/Contents/Versions/50.0.2661.102/nwjs Helper.app/
+example/build/nw-demo/osx64/nwjc
+example/build/nw-demo/osx64/payload
+example/cache/0.14.6/osx64/nwjs.app/Contents/Resources/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Internet Plug-Ins/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/app_mode_loader.app/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/en_GB.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/es_419.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/fil.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/pt_BR.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/pt_PT.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/th.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/tr.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/uk.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/vi.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/zh_CN.lproj/
+example/cache/0.14.6/osx64/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/zh_TW.lproj/
+example/cache/0.14.6/win32/
+example/cache/0.14.6/win64/
+
