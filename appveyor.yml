@@ -25,6 +25,7 @@ test_script:
   # Output useful info for debugging.
   - node --version
   - npm --version
+  - cmd: sudo $(which npm) test
 
 # Don't actually build.
 build: off
