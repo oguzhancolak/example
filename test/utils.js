@@ -13,12 +13,14 @@ var isWindows = process.platform === 'win32';
 var tempFile = Promise.promisify(temp.open);
 var tempFileCleanup = Promise.promisify(temp.cleanup);
 
+/*
 test('getPackageInfo invalid', function (t) {
     t.plan(1);
     utils.getPackageInfo('./test/fixtures/invalid.json').catch(function (error) {
         t.ok(error);
     });
 });
+*/
 
 test('getPackageInfo valid', function (t) {
     t.plan(2);
