@@ -8,6 +8,8 @@ before_install:
   - npm install -g gulp-cli
   - npm install n
   - sudo ./node_modules/.bin/n stable
+install:
+  - gulp nw
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
