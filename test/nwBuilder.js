@@ -12,7 +12,7 @@ var xmlFixture = '<?xml version="1.0" encoding="UTF-8"?><ListBucketResult xmlns=
 var baseUrl = 'https://amazon.s3.nw.com';
 nock(baseUrl).get('/xml').reply(200, xmlFixture);
 
-test('Throw files', function (t) {
+/*test('Throw files', function (t) {
     t.plan(1);
     t.throws(function() {
         new NwBuilder({'files':null});
@@ -31,7 +31,7 @@ test('Should check if we have some files', function (t) {
     t.plan(2);
 
     var x = new NwBuilder({
-        files: './test/fixtures/nwapp/**/*'
+        files: './test/fixtures/nwapp/!**!/!*'
     });
 
     x.checkFiles().then(function (data) {
@@ -45,7 +45,7 @@ test('Should take the option name if provided', function (t) {
     t.plan(1);
 
     var x = new NwBuilder({
-        files: './test/fixtures/nwapp/**/*',
+        files: './test/fixtures/nwapp/!**!/!*',
         appName: 'somename'
     });
 
@@ -58,7 +58,7 @@ test('Should check if we have some files: rejection', function (t) {
     t.plan(1);
 
     var x = new NwBuilder({
-        files: './test/fixtures/nwapp/images/**'
+        files: './test/fixtures/nwapp/images/!**'
     });
 
     x.checkFiles().catch(function (error) {
@@ -71,7 +71,7 @@ test('Should apply platform-specific overrides correctly', function (t) {
     t.plan(6);
 
     var x = new NwBuilder({
-            files: './test/fixtures/platformOverrides/**/*',
+            files: './test/fixtures/platformOverrides/!**!/!*',
             platforms: ['osx32', 'osx64', 'win32', 'win64', 'linux32', 'linux64']
         });
 
@@ -89,7 +89,7 @@ test('Should only create one ZIP if there are no platform-specific overrides', f
     t.plan(17);
 
     var x = new NwBuilder({
-        files: './test/fixtures/nwapp/**/*',
+        files: './test/fixtures/nwapp/!**!/!*',
         platforms: ['osx32', 'osx64', 'win32', 'win64', 'linux32', 'linux64'],
         macZip: true
     });
@@ -115,7 +115,7 @@ test('Should create a ZIP per platform if every platform has overrides', functio
     t.plan(15);
 
     var x = new NwBuilder({
-        files: './test/fixtures/platformOverrides/**/*',
+        files: './test/fixtures/platformOverrides/!**!/!*',
         platforms: ['osx32', 'osx64', 'win32', 'win64', 'linux32', 'linux64'],
         macZip: true
     });
@@ -139,7 +139,7 @@ test('Should create a ZIP per platform which has overrides and one between the r
     t.plan(15);
 
     var x = new NwBuilder({
-        files: './test/fixtures/oneOveriddenRestNot/**/*',
+        files: './test/fixtures/oneOveriddenRestNot/!**!/!*',
         platforms: ['osx32', 'osx64', 'win32', 'win64', 'linux32', 'linux64'],
         macZip: true
     });
@@ -175,7 +175,7 @@ test('Should find latest version', function (t) {
     });
 
     x.on('log', function (message) {
-    	t.equal(/Latest Version: v*/.test(message), true, 'should log version');
+    	t.equal(/Latest Version: v*!/.test(message), true, 'should log version');
     });
 
 });
@@ -197,7 +197,7 @@ test('Should not accept an invalid version', function (t) {
 test('Should not zip mac apps by default', function (t) {
     t.plan(1);
 
-    var x = new NwBuilder({ files: './test/fixtures/nwapp/**/*', platforms: ['osx32', 'osx64'] });
+    var x = new NwBuilder({ files: './test/fixtures/nwapp/!**!/!*', platforms: ['osx32', 'osx64'] });
     x.zipAppFiles().then(function () {
         t.notOk(x._needsZip);
     });
@@ -215,7 +215,7 @@ testSetup({
     var appName = 'theapp',
         buildDir = './test/temp/oneOverridenRestNot',
         x = new NwBuilder({
-            files: './test/fixtures/oneOveriddenRestNot/**/*',
+            files: './test/fixtures/oneOveriddenRestNot/!**!/!*',
             platforms: ['osx32'],
             appName: appName,
             buildDir: buildDir
@@ -234,4 +234,4 @@ testSetup({
             );
             t.end();
         });
-});
+});*/
