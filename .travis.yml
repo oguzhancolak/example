@@ -5,6 +5,7 @@ node_js:
 sudo: true
 before_install:
   - npm install -g npm
+  - npm install -g gulp-cli
   - npm install n
   - sudo ./node_modules/.bin/n stable
 notifications:

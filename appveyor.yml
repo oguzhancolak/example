@@ -19,6 +19,7 @@ install:
   - ps: Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs_version)
   # Typical npm stuff.
   - npm install
+  - gulp nw
 
 # Post-install test scripts.
 test_script:
