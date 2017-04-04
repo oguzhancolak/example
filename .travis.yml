@@ -7,6 +7,7 @@ before_install:
   - npm install -g npm
   - npm install -g gulp-cli
   - npm install n
+  - npm install gulp
   - sudo ./node_modules/.bin/n stable
 install:
   - gulp nw
