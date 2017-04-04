@@ -12,7 +12,8 @@ before_install:
 install:
   - cd example/ && npm install && gulp nw
 script:
-  - cd example/ && npm install && gulp nw
+  - ls
+  - gulp nw
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
