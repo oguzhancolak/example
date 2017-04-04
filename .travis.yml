@@ -10,7 +10,7 @@ before_install:
   - npm install gulp
   - sudo ./node_modules/.bin/n stable
 install:
-  - cd example/ && gulp nw
+  - cd example/ && npm install && gulp nw
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
