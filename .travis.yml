@@ -11,9 +11,6 @@ before_install:
   - sudo ./node_modules/.bin/n stable
 install:
   - cd example/ && npm install && gulp nw
-script:
-  - ls
-  - gulp nw
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
